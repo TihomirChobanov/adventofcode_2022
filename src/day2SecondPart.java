@@ -7,7 +7,7 @@ import java.util.List;
 public class day2SecondPart {
     public static void main(String[] args) throws FileNotFoundException {
         try {
-            List<String> allLines = Files.readAllLines(Paths.get("C:\\Users\\Tihomir\\Desktop\\input2.txt"));
+            List<String> allLines = Files.readAllLines(Paths.get("C:\\Users\\Tihomir\\IdeaProjects\\adventofcode\\src\\input2.txt"));
             int result = 0;
             int myChoiceIsRockOrX = 1;       //opponentA - Rock
             int myChoiceIsPaperOrY = 2;      //opponentB - Paper
